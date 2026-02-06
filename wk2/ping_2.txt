@@ -1,0 +1,15 @@
+krishnavenu@Mac comp3134Winter2026 % ping 138.197.143.231
+
+PING 138.197.143.231 (138.197.143.231): 56 data bytes
+64 bytes from 138.197.143.231: icmp_seq=0 ttl=56 time=6.881 ms
+64 bytes from 138.197.143.231: icmp_seq=1 ttl=56 time=6.188 ms
+64 bytes from 138.197.143.231: icmp_seq=2 ttl=56 time=7.329 ms
+64 bytes from 138.197.143.231: icmp_seq=3 ttl=56 time=6.960 ms
+64 bytes from 138.197.143.231: icmp_seq=4 ttl=56 time=7.351 ms
+64 bytes from 138.197.143.231: icmp_seq=5 ttl=56 time=6.760 ms
+64 bytes from 138.197.143.231: icmp_seq=6 ttl=56 time=5.972 ms
+64 bytes from 138.197.143.231: icmp_seq=7 ttl=56 time=10.884 ms
+^C
+--- 138.197.143.231 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.972/7.291/10.884/1.433 ms
