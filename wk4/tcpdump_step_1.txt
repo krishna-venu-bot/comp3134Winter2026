@@ -1,0 +1,26 @@
+root@COMP3134:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:42:42.939778 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 577227618:577227654, ack 842009586, win 2048, options [nop,nop,TS val 2548744877 ecr 406147659], length 36
+20:42:42.939905 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 1:37, ack 36, win 483, options [nop,nop,TS val 406147680 ecr 2548744877], length 36
+20:42:42.944002 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 37:225, ack 36, win 483, options [nop,nop,TS val 406147684 ecr 2548744877], length 188
+20:42:42.945079 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 37, win 2048, options [nop,nop,TS val 2548744882 ecr 406147680], length 0
+20:42:42.949276 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 225, win 2048, options [nop,nop,TS val 2548744887 ecr 406147684], length 0
+20:42:42.963542 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 36:72, ack 225, win 2048, options [nop,nop,TS val 2548744901 ecr 406147684], length 36
+20:42:42.963700 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 225:261, ack 72, win 483, options [nop,nop,TS val 406147704 ecr 2548744901], length 36
+20:42:42.969207 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 261, win 2048, options [nop,nop,TS val 2548744906 ecr 406147704], length 0
+20:42:42.984713 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 72:108, ack 261, win 2048, options [nop,nop,TS val 2548744922 ecr 406147704], length 36
+20:42:42.984874 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 261:297, ack 108, win 483, options [nop,nop,TS val 406147725 ecr 2548744922], length 36
+20:42:42.991025 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 297, win 2048, options [nop,nop,TS val 2548744928 ecr 406147725], length 0
+20:42:43.007804 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 108:144, ack 297, win 2048, options [nop,nop,TS val 2548744945 ecr 406147725], length 36
+20:42:43.007963 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 297:333, ack 144, win 483, options [nop,nop,TS val 406147748 ecr 2548744945], length 36
+20:42:43.013228 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 333, win 2048, options [nop,nop,TS val 2548744951 ecr 406147748], length 0
+20:42:43.032646 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 144:180, ack 333, win 2048, options [nop,nop,TS val 2548744970 ecr 406147748], length 36
+20:42:43.032857 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 333:369, ack 180, win 483, options [nop,nop,TS val 406147773 ecr 2548744970], length 36
+20:42:43.037912 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 369, win 2048, options [nop,nop,TS val 2548744975 ecr 406147773], length 0
+^C
+20:42:43.040575 IP COMP3134.37808 > 67.207.67.2.domain: 2990+ [1au] PTR? 231.143.197.138.in-addr.arpa. (57)
+
+18 packets captured
+685 packets received by filter
+562 packets dropped by kernel

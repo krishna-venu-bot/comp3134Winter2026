@@ -1,0 +1,27 @@
+tcpdump -i eth0 tcp
+
+21:15:34.414303 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 53064:53268, ack 2269, win 483, options [nop,nop,TS val 408119155 ecr 2550399252], length 204
+21:15:34.422005 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 52380, win 13064, options [nop,nop,TS val 2550399305 ecr 408118997,nop,nop,sack 1 {52016:52380}], length 0
+21:15:34.422006 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 53064, win 13064, options [nop,nop,TS val 2550399399 ecr 408119051], length 0
+21:15:34.422006 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 53268, win 13064, options [nop,nop,TS val 2550399455 ecr 408119155], length 0
+21:15:34.477651 IP stanley.probe.onyphe.net.19545 > COMP3134.9403: Flags [S], seq 183781634, win 5840, options [mss 1460,TS val 1145389380 ecr 0,wscale 1,sackOK,eol], length 0
+21:15:34.518836 IP COMP3134.41746 > 67.207.67.3.domain: Flags [P.], seq 227:273, ack 550, win 502, options [nop,nop,TS val 978190008 ecr 1730732429], length 46 34533+ PTR? 83.76.184.195.in-addr.arpa. (44)
+21:15:34.518920 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 53268:53944, ack 2269, win 483, options [nop,nop,TS val 408119259 ecr 2550399455], length 676
+21:15:34.520219 IP 67.207.67.3.domain > COMP3134.41746: Flags [.], ack 273, win 64, options [nop,nop,TS val 1730733225 ecr 978190008], length 0
+21:15:34.521625 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 53944:54156, ack 2269, win 483, options [nop,nop,TS val 408119262 ecr 2550399455], length 212
+21:15:34.541355 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 54156, win 13064, options [nop,nop,TS val 2550399573 ecr 408119262], length 0
+21:15:34.601816 IP 67.207.67.3.domain > COMP3134.41746: Flags [P.], seq 550:634, ack 273, win 64, options [nop,nop,TS val 1730733307 ecr 978190008], length 84 34533 1/0/0 PTR stanley.probe.onyphe.net. (82)
+21:15:34.601899 IP COMP3134.41746 > 67.207.67.3.domain: Flags [.], ack 634, win 502, options [nop,nop,TS val 978190091 ecr 1730733307], length 0
+21:15:34.622411 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 54156:55232, ack 2269, win 483, options [nop,nop,TS val 408119363 ecr 2550399573], length 1076
+21:15:34.622665 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 55232:55420, ack 2269, win 483, options [nop,nop,TS val 408119363 ecr 2550399573], length 188
+21:15:34.631989 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 55420, win 13064, options [nop,nop,TS val 2550399664 ecr 408119363], length 0
+21:15:34.726304 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 55420:55624, ack 2269, win 483, options [nop,nop,TS val 408119467 ecr 2550399664], length 204
+21:15:34.726426 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 55624:55980, ack 2269, win 483, options [nop,nop,TS val 408119467 ecr 2550399664], length 356
+21:15:34.732483 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 55980, win 13064, options [nop,nop,TS val 2550399766 ecr 408119467], length 0
+21:15:34.830230 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 55980:56184, ack 2269, win 483, options [nop,nop,TS val 408119571 ecr 2550399766], length 204
+21:15:34.830333 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 56184:56540, ack 2269, win 483, options [nop,nop,TS val 408119571 ecr 2550399766], length 356
+21:15:34.838881 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 56540, win 13064, options [nop,nop,TS val 2550399873 ecr 408119571], length 0
+^C
+323 packets captured
+327 packets received by filter
+0 packets dropped by kernel

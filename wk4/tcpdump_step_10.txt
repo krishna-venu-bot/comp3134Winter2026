@@ -1,0 +1,14 @@
+tcpdump -i eth0 port 22
+
+21:18:31.526063 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 69892:69928, ack 3781, win 483, options [nop,nop,TS val 408296267 ecr 2550576559], length 36
+21:18:31.532072 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 69928, win 13064, options [nop,nop,TS val 2550576565 ecr 408296267], length 0
+21:18:31.546232 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 3781:3817, ack 69928, win 13064, options [nop,nop,TS val 2550576579 ecr 408296267], length 36
+21:18:31.546389 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 69928:69964, ack 3817, win 483, options [nop,nop,TS val 408296287 ecr 2550576579], length 36
+21:18:31.551447 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 69964, win 13064, options [nop,nop,TS val 2550576585 ecr 408296287], length 0
+21:18:31.565956 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [P.], seq 3817:3853, ack 69964, win 13064, options [nop,nop,TS val 2550576599 ecr 408296287], length 36
+21:18:31.566117 IP COMP3134.ssh > 198.96.85.106.49776: Flags [P.], seq 69964:70000, ack 3853, win 483, options [nop,nop,TS val 408296307 ecr 2550576599], length 36
+21:18:31.571311 IP 198.96.85.106.49776 > COMP3134.ssh: Flags [.], ack 70000, win 13064, options [nop,nop,TS val 2550576604 ecr 408296307], length 0
+^C
+414 packets captured
+421 packets received by filter
+0 packets dropped by kernel
