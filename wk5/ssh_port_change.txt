@@ -1,0 +1,2 @@
+sudo systemctl restart ssh.socket
+ssh root@138.197.143.231 -p 2222
