@@ -1,0 +1,7 @@
+1) When entering a valid English word, the application returns the correct definition and behaves as expected.
+
+2) When entering an invalid English word in the URL, the application displays a “no results” message, indicating proper handling of invalid input.
+
+3) When entering a script tag in the form, the application does not execute the script and instead treats it as plain text, preventing XSS attacks.
+
+4) When entering a script tag in the URL, the application sanitizes the input and does not execute the script, demonstrating proper input validation and security mitigation.
