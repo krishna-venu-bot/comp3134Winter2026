@@ -1,0 +1,7 @@
+The webpage displays a list of files and folders based on user input provided through the query string parameter.
+
+There is no input validation or sanitization, which allows users to control the path being accessed.
+
+This results in a security vulnerability because it exposes the server’s directory structure and file names.
+
+Sensitive information such as system files, configuration files, and directory hierarchy can be accessed by an attacker.

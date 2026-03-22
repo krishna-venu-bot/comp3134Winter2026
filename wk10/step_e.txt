@@ -1,0 +1,9 @@
+The vulnerability was mitigated by validating user input.
+
+The basename() function ensures that only the base directory name is used, preventing directory traversal attacks such as "../../".
+
+The file_exists() function ensures that the provided path is valid and prevents errors when accessing non-existent directories.
+
+Additionally, input containing a dot is restricted to prevent users from accessing files instead of directories.
+
+These changes prevent unauthorized access to sensitive directories and improve the security of the application.

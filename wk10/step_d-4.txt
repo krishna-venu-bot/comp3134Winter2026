@@ -1,0 +1,7 @@
+When using the input "../../", the application allows directory traversal outside the web root directory.
+
+This allows access to parent directories on the server, exposing sensitive system files and folders.
+
+This is a serious vulnerability because attackers can navigate through the file system and potentially access confidential data.
+
+The issue occurs because the application does not restrict or validate user input paths.

@@ -1,0 +1,7 @@
+The encoded input "%2e%2e%2f" represents "../" and is used to bypass simple input filters.
+
+The application still processes this input and allows directory traversal, demonstrating that it does not properly validate or sanitize encoded inputs.
+
+This shows that attackers can use encoded characters to exploit the same vulnerability and access sensitive directories.
+
+Proper input validation and sanitization are required to prevent such attacks.
