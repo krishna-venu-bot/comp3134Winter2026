@@ -1,0 +1,5 @@
+When using csfr_form.php, the login works because the session token matches the submitted token.
+
+When using csfr.html, the request fails because the attacker cannot provide the correct session token.
+
+This demonstrates that CSRF protection using tokens prevents unauthorized requests.
